@@ -1,0 +1,52 @@
+# Sissi Xu S3C2 end of chapter 27
+
+1.a)personalAccount  savingAccount => bankAccount
+
+b)
+class bank account:
+	def __init__(self, i):
+		self.__accountholdername = ‘’
+		self.__IBAN = i
+	def setaccountholdername(self, n):
+		self.__accountholdername = 
+	def getaccountholdername(self):
+		return(self.__accountholdername)
+	def getIBAN(self):
+		return(self.__IBAN)
+c)
+i)attributes: personalAccount: monthlFee, overdraftLimit
+methods: constructor
+ii)savingAccount: interestRate
+methods: constructor
+2.
+b)i): attributes are declared as private so tat they can only be changed through the class methods.
+ii): methods are declared as public so that they can be used to access attributes.
+c) NewCustomer = ContractTicketHolder(“A. Smith”, “xyz@abc.xx”, 10)
+3. 
+a) containment
+b)
+class NodeClass:
+    def __init__(self):
+        self.__date = ''
+        self.__pointer = -1
+    def SetDate(self, d):
+        self.__data = d
+    def GetData(self):
+        return(self.__Date)
+    def SetPointer(self, x):
+        self.__data = x
+    def GetPointer(self):
+        return(self.__Pointer)
+c)
+class QueueClass:
+    def __init__(self):
+        self.__queue = [NodeClass() for i in range(51)]
+        self.__head = -1
+        self.__tail = -1
+d)
+def JoinQueue(self, d):
+    if head == -1:
+        head = 0
+    self.__tail +=1
+    i = self.__tail
+    self.__queue[i].setdata(d)
