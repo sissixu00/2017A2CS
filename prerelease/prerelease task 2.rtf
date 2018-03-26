@@ -1,0 +1,827 @@
+{\rtf1\ansi\ansicpg936\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 HelveticaNeue;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red27\green31\blue34;\red244\green246\blue249;\red203\green35\blue57;
+\red91\green40\blue180;\red7\green68\blue184;\red6\green33\blue79;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs28 \cf0 Task 2.1\
+\pard\pardeftab720
+
+\f1\fs32 \cf2 \expnd0\expndtw0\kerning0
+Toy:\
+upper:\
+Name: STRING\
+ID: STRING\
+Price: CURRENCY\
+MinimumAge: INTEGER\
+lower:\
+Constructor()\
+SetNamae()\
+SetID()\
+SetPrice()\
+SetMinimumAge()\
+GetName()\
+GetPrice()\
+GetID()\
+GetMinimumAge()\
+ComputerGame:\
+upper:\
+Category: STRING\
+Console: STRING\
+lower:\
+Constructor()\
+SetCategory()\
+SetConsole()\
+GetCategory()\
+GetConsole()\
+Vehicle:\
+upper:\
+Type: STRING\
+Height: REAL\
+Length: REAL\
+Weight: REAL\
+lower:\
+Constructor()\
+SetType()\
+SetHeight()\
+SetLength()\
+SetWeight()\
+GetType()\
+GetHeight()\
+GetLength()\
+GetWeight()\
+\
+\
+Task 2.2\
+Inheritance is when in object-oriented programming a class or object is based on another class or object.\
+\pard\pardeftab720
+
+\f2\fs27\fsmilli13600 \cf2 \cb3 \expnd0\expndtw0\kerning0
+				Toy\
+\
+				  \uc0\u8593 \
+\
+   		|		   		     |\
+\
+ComputerGame			Vehicle\
+\
+\
+Task 2.3\
+\pard\pardeftab720
+\cf4 \cb3 \expnd0\expndtw0\kerning0
+class\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+Toy\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf6 \cb3 \expnd0\expndtw0\kerning0
+object\cf2 \cb3 \expnd0\expndtw0\kerning0
+):\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+__init__\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Name\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf7 \expnd0\expndtw0\kerning0
+''\cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.\cf6 \cb3 \expnd0\expndtw0\kerning0
+__ID\cf4 \expnd0\expndtw0\kerning0
+=\cf7 \expnd0\expndtw0\kerning0
+''\cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Price\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf6 \expnd0\expndtw0\kerning0
+0.00\cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__MinimumAge\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf6 \expnd0\expndtw0\kerning0
+0\cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+SetName\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self, n):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Name\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+n\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+SetID\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self,i):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.\cf6 \cb3 \expnd0\expndtw0\kerning0
+__ID\cf4 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+i\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+SetPrice\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self, p):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Price\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+p\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+SetMinimumAge\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self, a):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__MinimumAge\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+a\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+GetName\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf4 \cb3 \expnd0\expndtw0\kerning0
+return\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Name\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+GetID\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf4 \cb3 \expnd0\expndtw0\kerning0
+return\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.\cf6 \cb3 \expnd0\expndtw0\kerning0
+__ID\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+GetPrice\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf4 \cb3 \expnd0\expndtw0\kerning0
+return\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Price \
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+GetAge\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf4 \cb3 \expnd0\expndtw0\kerning0
+return\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__MinimumAge\
+\
+Task 2.4\
+\cf4 \cb3 \expnd0\expndtw0\kerning0
+class\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+ComputerGame\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf5 \cb3 \expnd0\expndtw0\kerning0
+Toy\cf2 \cb3 \expnd0\expndtw0\kerning0
+):\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+__init__\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Category\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf7 \expnd0\expndtw0\kerning0
+''\cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Console\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf7 \expnd0\expndtw0\kerning0
+''\cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+SetCategory\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self, new):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Category\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+new\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+SetConsole\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self, new):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Console\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+new\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+GetCategory\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf4 \cb3 \expnd0\expndtw0\kerning0
+return\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Category\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+GetConsole\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf4 \cb3 \expnd0\expndtw0\kerning0
+return\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Console\
+\
+\cf4 \cb3 \expnd0\expndtw0\kerning0
+class\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+Vehicle\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf5 \cb3 \expnd0\expndtw0\kerning0
+Toy\cf2 \cb3 \expnd0\expndtw0\kerning0
+):\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+__init__\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Type\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf7 \expnd0\expndtw0\kerning0
+''\cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Height\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf6 \expnd0\expndtw0\kerning0
+0\cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Length\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf6 \expnd0\expndtw0\kerning0
+0\cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Weight\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf6 \expnd0\expndtw0\kerning0
+0\cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+SetType\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self, t):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Type\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+t\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+SetHeight\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self, h):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Height\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+h\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+SetLength\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self, l):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Length\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+l\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+SetWeight\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self, w):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Weight\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+w\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+GetType\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf4 \cb3 \expnd0\expndtw0\kerning0
+return\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Type\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+GetHeight\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf4 \cb3 \expnd0\expndtw0\kerning0
+return\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Height\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+GetLength\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf4 \cb3 \expnd0\expndtw0\kerning0
+return\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Length\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+GetWeight\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf4 \cb3 \expnd0\expndtw0\kerning0
+return\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Weight\
+\
+\
+Task 2.5\
+\cf4 \cb3 \expnd0\expndtw0\kerning0
+class\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+Toy\cf2 \cb3 \expnd0\expndtw0\kerning0
+:\
+    \cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+SetMinimumAge\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self, a):\
+    	\cf4 \cb3 \expnd0\expndtw0\kerning0
+if\cf2 \cb3 \expnd0\expndtw0\kerning0
+ a\cf4 \cb3 \expnd0\expndtw0\kerning0
+>\cf6 \expnd0\expndtw0\kerning0
+18\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf4 \cb3 \expnd0\expndtw0\kerning0
+or\cf2 \cb3 \expnd0\expndtw0\kerning0
+ a\cf4 \cb3 \expnd0\expndtw0\kerning0
+<\cf6 \expnd0\expndtw0\kerning0
+0\cf2 \cb3 \expnd0\expndtw0\kerning0
+:\
+        	\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'not valid'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+		\cf4 \cb3 \expnd0\expndtw0\kerning0
+else\cf2 \cb3 \expnd0\expndtw0\kerning0
+:\
+			\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__MinimumAge\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+a\
+\
+Task 2.6\
+toys \cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+ []\
+newToy \cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+ Vehicle()\
+newToy.SetName(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'Red Sports Car'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetID(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'RSC13'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetMinimumAge(\cf6 \cb3 \expnd0\expndtw0\kerning0
+6\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetType(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'Car'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetHeight(\cf6 \cb3 \expnd0\expndtw0\kerning0
+3.3\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetLength(\cf6 \cb3 \expnd0\expndtw0\kerning0
+12.1\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetWeight(\cf6 \cb3 \expnd0\expndtw0\kerning0
+0.08\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+toys.append(newToy)\
+newToy\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+ComputerGame()\
+newToy.SetName(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'Gardenscapes'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetID(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'aaaa'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetMinimumAge(\cf6 \cb3 \expnd0\expndtw0\kerning0
+4\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetPrice(\cf6 \cb3 \expnd0\expndtw0\kerning0
+0\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetCategory(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'puzzle'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.setConsole(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'PC'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+toys.append(newToy)\
+\
+\
+Task 2.7\
+\cf4 \cb3 \expnd0\expndtw0\kerning0
+class\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+Toy\cf2 \cb3 \expnd0\expndtw0\kerning0
+:\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+PrintDetais\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Name:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__name)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" ID:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.\cf6 \cb3 \expnd0\expndtw0\kerning0
+__ID\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Price:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Price)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Minimum age:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__MinimumAge)\
+\
+\cf4 \cb3 \expnd0\expndtw0\kerning0
+class\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+ComputerGame\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+):\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+PrintDetais\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Name:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__name)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" ID:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.\cf6 \cb3 \expnd0\expndtw0\kerning0
+__ID\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Price:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Price)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Minimum age:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__MinimumAge)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Category:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Category)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Console:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Console)\
+\
+\cf4 \cb3 \expnd0\expndtw0\kerning0
+class\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+Vehicle\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+):\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+PrintDetais\cf2 \cb3 \expnd0\expndtw0\kerning0
+(self):\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Name:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__name)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" ID:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.\cf6 \cb3 \expnd0\expndtw0\kerning0
+__ID\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Price:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Price)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Minimum age:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__MinimumAge)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Type:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Type)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Height:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Height)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Length:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Length)\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+" Weight:"\cf2 \cb3 \expnd0\expndtw0\kerning0
+,\cf6 \cb3 \expnd0\expndtw0\kerning0
+self\cf2 \cb3 \expnd0\expndtw0\kerning0
+.__Weight)\
+\
+\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+FindToy\cf2 \cb3 \expnd0\expndtw0\kerning0
+(ID):\
+    Found\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf6 \expnd0\expndtw0\kerning0
+False\cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+for\cf2 \cb3 \expnd0\expndtw0\kerning0
+ i \cf4 \cb3 \expnd0\expndtw0\kerning0
+in\cf2 \cb3 \expnd0\expndtw0\kerning0
+ toys:\
+		\cf4 \cb3 \expnd0\expndtw0\kerning0
+if\cf2 \cb3 \expnd0\expndtw0\kerning0
+ i.GetID \cf4 \cb3 \expnd0\expndtw0\kerning0
+==\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+ID\cf2 \cb3 \expnd0\expndtw0\kerning0
+:\
+			i.PrintInfo()\
+			Found\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf6 \expnd0\expndtw0\kerning0
+True\cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+			\cf4 \cb3 \expnd0\expndtw0\kerning0
+break\cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+if\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf4 \cb3 \expnd0\expndtw0\kerning0
+not\cf2 \cb3 \expnd0\expndtw0\kerning0
+ Found:\
+		\cf6 \cb3 \expnd0\expndtw0\kerning0
+print\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'not found'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+\
+Task 2.8\
+\cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+Discount\cf2 \cb3 \expnd0\expndtw0\kerning0
+():\
+	rate\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf6 \expnd0\expndtw0\kerning0
+int\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf6 \cb3 \expnd0\expndtw0\kerning0
+input\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'Enter discount rate:'\cf2 \cb3 \expnd0\expndtw0\kerning0
+))\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+for\cf2 \cb3 \expnd0\expndtw0\kerning0
+ i \cf4 \cb3 \expnd0\expndtw0\kerning0
+in\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+range\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf6 \cb3 \expnd0\expndtw0\kerning0
+len\cf2 \cb3 \expnd0\expndtw0\kerning0
+(toys)):\
+		p1\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+toys[i].GetPrice()\
+		p2\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+toys[i].SetPrice(p1\cf4 \cb3 \expnd0\expndtw0\kerning0
+*\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf6 \cb3 \expnd0\expndtw0\kerning0
+1\cf4 \expnd0\expndtw0\kerning0
+-\cf2 \cb3 \expnd0\expndtw0\kerning0
+rate\cf4 \cb3 \expnd0\expndtw0\kerning0
+/\cf6 \expnd0\expndtw0\kerning0
+100\cf2 \cb3 \expnd0\expndtw0\kerning0
+))\
+toys \cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+ []\
+newToy \cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+ Vehicle()\
+newToy.SetName(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'Red Sports Car'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetID(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'RSC13'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetMinimumAge(\cf6 \cb3 \expnd0\expndtw0\kerning0
+6\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetType(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'Car'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetHeight(\cf6 \cb3 \expnd0\expndtw0\kerning0
+3.3\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetLength(\cf6 \cb3 \expnd0\expndtw0\kerning0
+12.1\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetWeight(\cf6 \cb3 \expnd0\expndtw0\kerning0
+0.08\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+toys.append(newToy)\
+newToy\cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+ComputerGame()\
+newToy.SetName(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'Gardenscapes'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetID(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'aaaa'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetMinimumAge(\cf6 \cb3 \expnd0\expndtw0\kerning0
+4\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetPrice(\cf6 \cb3 \expnd0\expndtw0\kerning0
+0\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.SetCategory(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'puzzle'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+newToy.setConsole(\cf7 \cb3 \expnd0\expndtw0\kerning0
+'PC'\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+toys.append(newToy)\
+Discount(\cf6 \cb3 \expnd0\expndtw0\kerning0
+10\cf2 \cb3 \expnd0\expndtw0\kerning0
+)\
+\cf4 \cb3 \expnd0\expndtw0\kerning0
+for\cf2 \cb3 \expnd0\expndtw0\kerning0
+ t \cf4 \cb3 \expnd0\expndtw0\kerning0
+in\cf2 \cb3 \expnd0\expndtw0\kerning0
+ toys():\
+	t.PrintDetails()\
+\
+\
+Task 2.9\
+\pard\pardeftab720
+
+\f1\fs32 \cf2 \cb1 \expnd0\expndtw0\kerning0
+Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order.\
+Insertion sort iterates, consuming one input element each repetition, and growing a sorted output list. At each iteration, insertion sort removes one element from the input data, finds the location it belongs within the sorted list, and inserts it there. It repeats until no input elements remain.\
+\
+Task 2.10\
+\pard\pardeftab720
+
+\f2\fs27\fsmilli13600 \cf4 \cb3 \expnd0\expndtw0\kerning0
+def\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf5 \cb3 \expnd0\expndtw0\kerning0
+bubbleSort\cf2 \cb3 \expnd0\expndtw0\kerning0
+(games): \
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+for\cf2 \cb3 \expnd0\expndtw0\kerning0
+ i \cf4 \cb3 \expnd0\expndtw0\kerning0
+in\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+range\cf2 \cb3 \expnd0\expndtw0\kerning0
+(\cf6 \cb3 \expnd0\expndtw0\kerning0
+len\cf2 \cb3 \expnd0\expndtw0\kerning0
+(games)):\
+		\cf4 \cb3 \expnd0\expndtw0\kerning0
+for\cf2 \cb3 \expnd0\expndtw0\kerning0
+ j \cf4 \cb3 \expnd0\expndtw0\kerning0
+in\cf2 \cb3 \expnd0\expndtw0\kerning0
+ \cf6 \cb3 \expnd0\expndtw0\kerning0
+range\cf2 \cb3 \expnd0\expndtw0\kerning0
+(i, \cf6 \cb3 \expnd0\expndtw0\kerning0
+len\cf2 \cb3 \expnd0\expndtw0\kerning0
+(games)):\
+			\cf4 \cb3 \expnd0\expndtw0\kerning0
+if\cf2 \cb3 \expnd0\expndtw0\kerning0
+ games[i].getPrice() \cf4 \cb3 \expnd0\expndtw0\kerning0
+>\cf2 \cb3 \expnd0\expndtw0\kerning0
+ games[j].getPrice():\
+				temp \cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+ games[i]\
+				games[i] \cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+ games[j]\
+				games[j] \cf4 \cb3 \expnd0\expndtw0\kerning0
+=\cf2 \cb3 \expnd0\expndtw0\kerning0
+ temp\
+	\cf4 \cb3 \expnd0\expndtw0\kerning0
+for\cf2 \cb3 \expnd0\expndtw0\kerning0
+ g \cf4 \cb3 \expnd0\expndtw0\kerning0
+in\cf2 \cb3 \expnd0\expndtw0\kerning0
+ games():\
+		g.PrintDetails()}
