@@ -1,4 +1,5 @@
-Task 2.1
+# Task 2.1
+```
 Toy:
 upper:
 Name: STRING
@@ -41,10 +42,11 @@ GetType()
 GetHeight()
 GetLength()
 GetWeight()
+```
 
-
-Task 2.2
+# Task 2.2
 Inheritance is when in object-oriented programming a class or object is based on another class or object.
+```
 				Toy
 
 				  ↑
@@ -52,7 +54,7 @@ Inheritance is when in object-oriented programming a class or object is based on
    		|		   		     |
 
 ComputerGame			Vehicle
-
+```
 
 Task 2.3
 class Toy(object):
